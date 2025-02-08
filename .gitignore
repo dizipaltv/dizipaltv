@@ -1,18 +1,24 @@
-# Dependency directories
-Dizipal.GUI/node_modules/
-Dizipal.CLI/nodejs/node_modules
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Yarn Integrity file
-Dizipal.GUI/.yarn-integrity
-Dizipal.CLI/nodejs/.yarn-integrity
+node_modules
+dist
+dist-ssr
+*.local
 
-# dotenv environment variables file
-**/*/.env
-**/*/.env.test
-
-# Webpack
-Dizipal.GUI/.webpack/
-
-# cli
-Dizipal.CLI/nodejs/dist
-Dizipal.CLI/python/__pycache__
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
